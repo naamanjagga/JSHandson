@@ -147,3 +147,6 @@ const myArray = [["first",1],["second",2]];  //Nest one Array within Another Arr
 
 const myArray = [50, 60, 70];
 const myData = myArray[0];     //
+
+const myArray = [18, 64, 99];
+myArray[0] = 45;                  //Modify Array Data With Indexes
