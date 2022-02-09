@@ -185,4 +185,10 @@ function functionWithArgs(arb1, arb2) {
   }
   functionWithArgs(2,3);                  //Passing Values to Functions with Arguments
 
+  function timesFive(num) {
+    return num * 5;
+  }
+  
+  const answer = timesFive(5);      //Return a Value from a Function with Return
+
 
