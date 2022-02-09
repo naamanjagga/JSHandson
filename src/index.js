@@ -267,6 +267,11 @@ function processArg(num) {
   console.log(nextInLine(testArr, 6));
   console.log("After: " + JSON.stringify(testArr));  //Stand in Line
 
+  function welcomeToBooleans() {
+  
+    return true;                    //Understanding Boolean Values
+  }
+
 
 
 
