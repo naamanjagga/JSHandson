@@ -144,3 +144,6 @@ const wordBlanks = "The " + myNoun + " " + myAdjective + " " + myVerb + " " + my
 const myArray = [ "string",10];  //Store Multiple Values in one Variable using JavaScript Arrays
 
 const myArray = [["first",1],["second",2]];  //Nest one Array within Another Array
+
+const myArray = [50, 60, 70];
+const myData = myArray[0];     //
