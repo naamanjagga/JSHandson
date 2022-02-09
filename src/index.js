@@ -395,7 +395,24 @@ function processArg(num) {
     return "Inside";
   }
   
-  testLogicalOr(15);             //Comparisons with the Logical Or Operator
+  testLogicalOr(15);             //Comparisons with the Logical Or Operator2
+
+  function testElse(val) {
+    let result = "";
+  
+    if (val > 5) {
+      result = "Bigger than 5";
+    }
+  
+    else {
+      result = "5 or Smaller";
+    }
+  
+    return result;
+  }
+  
+  testElse(4);                 //Introducing Else Statements
+
 
 
 
