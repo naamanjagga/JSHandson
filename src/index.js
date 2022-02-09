@@ -110,3 +110,8 @@ const myStr = "My name is " +  myName + "and Iam well";  //Constructing Strings 
 const someAdjective = "bread and butter";
 let myStr = "Learning to code is ";
 myStr += someAdjective                       //Appending Variables to Strings
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName.length;  //Find the Length of a String
