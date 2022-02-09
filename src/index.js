@@ -98,3 +98,5 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\".";  //Es
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';  //Quoting Strings with Single Quotes
 
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";  //Escape Sequences in Strings
+
+const myStr = "This is the start. " + "This is the end";   //Concatenating Strings with Plus Operator
