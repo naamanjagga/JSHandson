@@ -106,3 +106,7 @@ myStr += "This is the second sentence.";      //Concatenating Strings with the P
 
 const myName = "Naman";
 const myStr = "My name is " +  myName + "and Iam well";  //Constructing Strings with Variables
+
+const someAdjective = "bread and butter";
+let myStr = "Learning to code is ";
+myStr += someAdjective                       //Appending Variables to Strings
