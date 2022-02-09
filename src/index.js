@@ -243,5 +243,14 @@ function addFive() {
 addThree();
 addFive();           //Understanding Undefined Value returned from a Function
 
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}  
+
+ processed = processArg(7);   //Assignment with a Returned Value
+
+
 
 
