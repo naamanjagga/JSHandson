@@ -140,3 +140,5 @@ const myAdverb = "quickly";
 
 const wordBlanks = "The " + myNoun + " " + myAdjective + " " + myVerb + " " + myAdverb + "."; 
 //Word Blanks
+
+const myArray = [ "string",10];  //Store Multiple Values in one Variable using JavaScript Arrays
