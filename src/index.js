@@ -319,6 +319,20 @@ function processArg(num) {
   
   testStrictNotEqual(10);             //Comparison with the Strict Inequality Operator
 
+  function testGreaterThan(val) {
+    if (val > 100) {  
+      return "Over 100";
+    }
+  
+    if (val > 10) { 
+      return "Over 10";
+    }
+  
+    return "10 or Under";
+  }
+  
+  testGreaterThan(10);    //Comparison with the Greater Than Operator
+
 
 
 
