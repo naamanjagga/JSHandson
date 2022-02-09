@@ -56,3 +56,5 @@ const ourDecimal = 5.7;
 const myDecimal = 5.7;   //Create Decimal Numbers with JavaScript
 
 const product = 2.0 * 2.5; //Multiply Two Decimals with JavaScript
+
+const quotient = 4.4 / 2.0;  //Divide One Decimal by Another with JavaScript
