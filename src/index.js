@@ -231,4 +231,17 @@ function myOutfit() {
 
 myOutfit();                      //Global vs. Local Scope in Functions
 
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+function addFive() {
+  sum = sum + 5;
+}
+
+addThree();
+addFive();           //Understanding Undefined Value returned from a Function
+
+
 
