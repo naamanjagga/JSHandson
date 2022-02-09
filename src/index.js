@@ -283,6 +283,16 @@ function processArg(num) {
   
   }                                      //Use Conditional Logic with If Statements
 
+  function testEqual(val) {
+    if (val == 12) { 
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+   
+  testEqual(10);               //Comparison with the Equality Operator
+
+
 
 
 
