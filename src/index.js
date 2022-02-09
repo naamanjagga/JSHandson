@@ -273,6 +273,16 @@ function processArg(num) {
   }
 
 
+  function trueOrFalse(wasThatTrue) {
+
+     if (wasThatTrue) {
+       return "Yes, that was true";
+     }
+    
+     return "No, that was false";
+  
+  }                                      //Use Conditional Logic with If Statements
+
 
 
 
