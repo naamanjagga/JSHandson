@@ -373,7 +373,18 @@ function processArg(num) {
     return "More Than 24";
   }
   
-  testLessOrEqual(10);                //Comparison with the Less Than Or Equal To Operator
+  testLessOrEqual(10);  //Comparison with the Less Than Or Equal To Operator
+  
+  function testLogicalAnd(val) {
+
+    if (val <= 50 && val >=25) {
+        return "Yes";
+      }
+
+    return "No";
+  }
+  
+  testLogicalAnd(10);         //Comparisons with the Logical And Operator
 
 
 
