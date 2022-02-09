@@ -180,3 +180,9 @@ function reusableFunction() {
   }
 reusableFunction();             //Write Reusable JavaScript with Functions
 
+function functionWithArgs(arb1, arb2) {
+    console.log(arb1 + arb2);
+  }
+  functionWithArgs(2,3);                  //Passing Values to Functions with Arguments
+
+
