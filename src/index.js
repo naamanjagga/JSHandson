@@ -386,6 +386,16 @@ function processArg(num) {
   
   testLogicalAnd(10);         //Comparisons with the Logical And Operator
 
+  function testLogicalOr(val) {
+ 
+    if (val > 20 || val < 10) {
+      return "Outside";
+    }
+  
+    return "Inside";
+  }
+  
+  testLogicalOr(15);             //Comparisons with the Logical Or Operator
 
 
 
