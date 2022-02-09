@@ -29,3 +29,6 @@ var titleCaseOver;
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;            //Understanding Case Sensitivity in Variables
+
+let catName = "Oliver";
+let catSound = "Meow!";     //Explore Differences Between the var and let Keywords
