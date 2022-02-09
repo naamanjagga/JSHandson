@@ -347,6 +347,20 @@ function processArg(num) {
   
   testGreaterOrEqual(10);      //Comparison with the Greater Than Or Equal To Operator
 
+  function testLessThan(val) {
+    if (val < 25) {  
+      return "Under 25";
+    }
+  
+    if (val < 55) {  
+      return "Under 55";
+    }
+  
+    return "55 or Over";
+  }
+  
+  testLessThan(10);          //Comparison with the Less Than Operator
+
 
 
 
