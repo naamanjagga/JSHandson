@@ -221,4 +221,14 @@ function myLocalScope() {
   // myVar is not defined outside of myLocalScope
   console.log('outside myLocalScope', myVar);     //Local Scope and Functions
 
+  const outerWear = "T-Shirt";
+
+function myOutfit() {
+
+   var outerWear = "sweater"
+  return outerWear;
+}
+
+myOutfit();                      //Global vs. Local Scope in Functions
+
 
