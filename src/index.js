@@ -100,3 +100,6 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';  //Qu
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";  //Escape Sequences in Strings
 
 const myStr = "This is the start. " + "This is the end";   //Concatenating Strings with Plus Operator
+
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";      //Concatenating Strings with the Plus Equals Operator
