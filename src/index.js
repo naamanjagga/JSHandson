@@ -51,3 +51,6 @@ myVar++;           //Increment a Number with JavaScrip
 
 let myVar = 11;
 myVar--;           //Decrement a Number with JavaScript
+
+const ourDecimal = 5.7;
+const myDecimal = 5.7;   //Create Decimal Numbers with JavaScript
