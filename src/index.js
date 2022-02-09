@@ -37,3 +37,5 @@ const FCC = "freeCodeCamp";
 let fact = "is cool!"; 
 fact = "is awesome!";
 console.log(FCC, fact);    //Declare a Read-Only Variable with the const Keyword
+
+const sum = 10 + 10;   //Add Two Numbers with JavaScript
