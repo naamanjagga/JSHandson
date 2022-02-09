@@ -96,3 +96,5 @@ c /= 11;  //Compound Assignment With Augmented Division
 const myStr = "I am a \"double quoted\" string inside \"double quotes\".";  //Escaping Literal Quotes in Strings
 
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';  //Quoting Strings with Single Quotes
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";  //Escape Sequences in Strings
