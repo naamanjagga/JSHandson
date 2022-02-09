@@ -93,3 +93,5 @@ a /= 12;
 b /= 4;
 c /= 11;  //Compound Assignment With Augmented Division
 
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
