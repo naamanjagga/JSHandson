@@ -690,6 +690,16 @@ const myDog = {
    
     myDog.bark = "woof";                  //Add New Properties to a JavaScript Object
 
+    const myDog = {
+      "name": "Happy Coder",
+      "legs": 4,
+      "tails": 1,
+      "friends": ["freeCodeCamp Campers"],
+      "bark": "woof"
+    };
+    
+    delete myDog.tails;                    //Delete Properties from a JavaScript Object
+
 
 
 
