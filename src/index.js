@@ -852,6 +852,13 @@ function randomFraction() {
   return Math.random();
 }                            //Generate Random Fractions with JavaScript
 
+function randomWholeNum() {
+
+
+  return Math.floor(Math.random()*10);
+}                                      //Generate Random Whole Numbers with JavaScript
+
+
 
 
 
