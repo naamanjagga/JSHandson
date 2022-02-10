@@ -680,7 +680,15 @@ const myDog = {
   "friends": ["freeCodeCamp Campers"]
 };
   myDog["name"] = "Happy Coder";       //Updating Object Properties
-
+  
+  const myDog = {
+    "name": "Happy Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["freeCodeCamp Campers"]
+  };
+   
+    myDog.bark = "woof";                  //Add New Properties to a JavaScript Object
 
 
 
