@@ -588,7 +588,18 @@ function isLess(a, b) {
 
 isLess(10, 15);            //Returning Boolean Values from Functions
 
-sequentialSizes(1);
+function abTest(a, b) {
+  
+    if (a < 0 || b < 0){
+      return undefined;
+    }
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+
+sequentialSizes(1);           //Return Early Pattern for Functions
 
 
 
