@@ -864,6 +864,13 @@ function randomRange(myMin, myMax) {
                       
 }                                                                   //Generate Random Whole Numbers within a Range
 
+function convertToInteger(str) {
+  const a = parseInt(str);
+  return a
+}
+
+convertToInteger("56");            //Use the parseInt Function
+
 
 
 
