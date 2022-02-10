@@ -884,6 +884,12 @@ function checkEqual(a, b) {
 
 checkEqual(1, 2);                        //Use the Conditional (Ternary) Operator
 
+function checkSign(num) {
+  return (num >0 ) ? "positive" : (num == 0) ? "zero" : "negative";
+}
+
+checkSign(10);                           //Use Multiple Conditional (Ternary) Operators
+
 
 
 
