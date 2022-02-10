@@ -878,6 +878,12 @@ unction convertToInteger(str) {
 
 convertToInteger("10011");  //Use the parseInt Function with a Radix
 
+function checkEqual(a, b) {
+  return a == b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);                        //Use the Conditional (Ternary) Operator
+
 
 
 
