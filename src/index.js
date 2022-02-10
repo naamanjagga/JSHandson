@@ -783,6 +783,15 @@ const myDog = {
     ];
     const secondTree = myPlants[1].list[1];  //Accessing Nested Arrays
 
+    const myArray = [];
+
+var i = 5;
+
+while (i >= 0){
+   myArray.push(i);
+   i--        
+}                                 //Iterate with JavaScript While Loops
+
 
 
 
