@@ -580,6 +580,14 @@ function chainToSwitch(val) {
 
 chainToSwitch(7);        //Replacing If Else Chains with Switch
 
+function isLess(a, b) {
+  
+  return a < b;
+ 
+}
+
+isLess(10, 15);            //Returning Boolean Values from Functions
+
 sequentialSizes(1);
 
 
