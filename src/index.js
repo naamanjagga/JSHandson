@@ -811,6 +811,15 @@ for (let i = 9; i > 0; i -= 2) {
   myArray.push(i);
 }                                   //Count Backwards With a For Loop
 
+const myArr = [2, 3, 4, 5, 6];
+
+var total = 0;
+
+for(let i = 0; i < myArr.length ; i++){
+    total = total + myArr[i];
+}                                        //Iterate Through an Array with a For Loop
+
+
 
 
 
