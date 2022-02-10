@@ -635,6 +635,16 @@ function cc(card) {
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');   //Counting Cards
 
+const myDog = {
+
+    name: "dog",
+    legs: 4,
+    tails: 1,
+    friends: ["human","being"]
+
+  
+};                             //Build JavaScript Objects
+
 
 
 
