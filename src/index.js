@@ -483,9 +483,31 @@ function golfScore(par, strokes) {
      return "Go Home!";
    }
 
-}                                           //Selecting from Many Options with Switch Statements
+}                                           //Golf Code
 
-golfScore(5, 4);
+function caseInSwitch(val) {
+  let answer = "";
+
+    switch(val) {
+  case 1:
+    answer = "alpha";
+    break;
+  case 2:
+   answer = "beta";
+    break;
+  case 3:
+   answer = "gamma";
+    break;
+  case 4:
+   answer = "delta";
+}
+
+  return answer;
+}
+
+caseInSwitch(1);
+ 
+golfScore(5, 4);           //Selecting from Many Options with Switch Statements
 
 
 
