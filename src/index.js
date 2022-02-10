@@ -719,6 +719,16 @@ const myDog = {
     
     phoneticLookup("charlie");            //Using Objects for Lookups
 
+    function checkObj(obj, checkProp) {
+
+      if(obj.hasOwnProperty(checkProp)){
+        return obj[checkProp];
+      }
+      else {
+      return "Not Found";
+      }
+    }                                    //Testing Objects for Properties
+
 
 
 
