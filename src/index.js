@@ -799,7 +799,13 @@ const myArray = [];
    myArray.push(i);
  }                                 //Iterate with JavaScript For Loops
 
- 
+ const myArray = [];
+
+for (let i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}                                    //Iterate Odd Numbers With a For Loop
+
+
 
 
 
